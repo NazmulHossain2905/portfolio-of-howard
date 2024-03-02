@@ -1,0 +1,62 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.jc-around {
+  justify-content: space-around;
+}
+
+.jc-start {
+  justify-content: flex-start;
+}
+
+.jc-end {
+  justify-content: flex-end;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.ai-start {
+  align-items: flex-start;
+}
+
+.ai-end {
+  align-items: flex-end;
+}
+
+.gap-1rem {
+  gap: 1rem;
+}
+.gap-1-5rem {
+  gap: 1.5rem;
+}
+.gap-2rem {
+  gap: 2rem;
+}
+.gap-3rem {
+  gap: 3rem;
+}
+.gap-4rem {
+  gap: 4rem;
+}
+.gap-5rem {
+  gap: 5rem;
+}

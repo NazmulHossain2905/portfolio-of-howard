@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOWARD - Portfolio</title>
+
+    <!-- Font awesome cnd link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/helper.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="primary-navbar d-flex jc-between ai-center">
+        <div class="navbar__logo-wrapper d-flex ai-center">
+          <img
+            class="navbar__logo-img"
+            src="./assets/images/smiley.png"
+            alt="Logo"
+          />
+
+          <h2 class="navbar__logo-text">Howard</h2>
+        </div>
+
+        <ul class="navbar__list-wrapper d-flex ai-center gap-2rem">
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-link navbar__list-link--active"
+              >Home</a
+            >
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-link">About</a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-link">Work</a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-link">Service</a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-link">Blog</a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-link">Contact</a>
+          </li>
+          <li class="navbar__list-item">
+            <a href="#" class="navbar__list-link navbar__list-email"
+              >howard@gmail.com</a
+            >
+          </li>
+        </ul>
+
+        <div class="menu-bar-wrapper d-flex fd-column jc-center">
+          <div class="menu-bar-line"></div>
+          <div class="menu-bar-line"></div>
+          <div class="menu-bar-line"></div>
+        </div>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="container d-flex ai-center md-flex-wrap">
+        <img
+          src="./assets/images/person.png"
+          alt="Howard Image"
+          class="header__person-img"
+        />
+
+        <div class="header__content">
+          <div class="header__profession-wrapper d-flex ai-center gap-1-5rem">
+            <div class="header__profession-line"></div>
+
+            <h4 class="header__profession-text">
+              Visual Designer <br />
+              Webflow Developer
+            </h4>
+          </div>
+
+          <h1 class="header__title">
+            Hello, I’m <br />
+            Howard Stark.
+          </h1>
+
+          <p class="header__profession-description">
+            Hello, I'm a passionate Visual Designer, Webflow Developer and part
+            time freelancer with a keen eye for details.
+          </p>
+
+          <div class="header__button-wrapper d-flex gap-1rem">
+            <button class="btn btn--primary">Say Hello</button>
+
+            <button class="btn btn--secondary">
+              View Portfolio <i class="fa-solid fa-arrow-right btn-arrow"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="companies">
+        <div
+          class="container d-flex ai-center jc-between gap-1rem md-flex-wrap"
+        >
+          <div class="company__content">
+            <h2 class="company__title">
+              I work with 524+ big companies worldwide.
+            </h2>
+
+            <p class="company__description">
+              I specialize in UI/UX & Graphic Design and my passion is all about
+              building elegant and professional user interfaces.
+            </p>
+          </div>
+
+          <div class="company__logos">
+            <div class="company__logo-wrapper">
+              <img
+                src="./assets/images/spotify.png"
+                alt="Spotify"
+                class="company__logo"
+              />
+            </div>
+            <div class="company__logo-wrapper">
+              <img
+                src="./assets/images/coinbase.png"
+                alt="Coinbase"
+                class="company__logo"
+              />
+            </div>
+            <div class="company__logo-wrapper">
+              <img
+                src="./assets/images/slack.png"
+                alt="Slack"
+                class="company__logo"
+              />
+            </div>
+            <div class="company__logo-wrapper">
+              <img
+                src="./assets/images/dropbox.png"
+                alt="Dropbox"
+                class="company__logo"
+              />
+            </div>
+            <div class="company__logo-wrapper">
+              <img
+                src="./assets/images/webflow.png"
+                alt="Webflow"
+                class="company__logo"
+              />
+            </div>
+            <div class="company__logo-wrapper">
+              <img
+                src="./assets/images/zoom.png"
+                alt="Zoom"
+                class="company__logo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/scripts/menu-bar.js"></script>
+  </body>
+</html>
