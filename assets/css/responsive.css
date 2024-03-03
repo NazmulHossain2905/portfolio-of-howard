@@ -29,6 +29,8 @@
 
   .company__logos {
     width: 31rem;
+    grid-template-columns: repeat(2, minmax(12.5rem, auto));
+    height: auto;
   }
 
   .company__logo-wrapper {
@@ -40,6 +42,48 @@
   }
 
   /* COMPANY STYLES ENDS */
+
+  /* CLIENT STYLES START */
+  .client {
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .client__review-card {
+    padding: 1.8rem;
+  }
+
+  .client__review-text {
+    font-size: 1.3rem;
+  }
+
+  .client__content {
+    gap: 2rem;
+  }
+
+  .client__right-img {
+    width: 25rem;
+    height: 100%;
+  }
+  /* CLIENT STYLES ENDS */
+
+  .about-card {
+    padding: 2rem;
+    gap: 2rem;
+    margin-inline: 1rem;
+  }
+
+  .qualification {
+    padding-top: 15rem;
+    flex-wrap: wrap;
+  }
+
+  .qualification__education,
+  .qualification__work-history,
+  .qualification__tool-i-use {
+    flex: 1 1 33%;
+    gap: 2rem;
+  }
 }
 
 /* 768px */
@@ -122,6 +166,27 @@
   .company__logos {
     width: fit-content;
   }
+
+  .client {
+    margin-block: 5.25rem;
+    flex-direction: column-reverse;
+  }
+
+  .about__white-bg {
+    display: none;
+  }
+
+  .about-card {
+    flex-direction: column;
+    position: relative;
+    transform: translate(0);
+    left: 0;
+    margin-inline: 0;
+  }
+
+  .qualification {
+    padding-top: 3rem;
+  }
 }
 
 /* 380px */
@@ -166,5 +231,54 @@
 
   .header__button-wrapper {
     flex-direction: column;
+  }
+
+  .client__right-img {
+    width: 20rem;
+  }
+
+  .client__title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+
+  .client__review-card {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .client__review-text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .client__reviewer-name {
+    font-size: 1.2rem;
+  }
+  .client__reviewer-occupation {
+    font-size: 1rem;
+  }
+
+  .client__review-control {
+    justify-content: center;
+  }
+
+  .qualification {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .tools__wrapper {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .tool {
+    width: 100%;
+  }
+
+  .about__btn-wrapper {
+    width: 100%;
   }
 }
