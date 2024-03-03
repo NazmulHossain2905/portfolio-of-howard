@@ -84,6 +84,28 @@
     flex: 1 1 33%;
     gap: 2rem;
   }
+
+  .work {
+    flex-direction: column;
+    padding-block: 5rem;
+    gap: 5rem;
+  }
+  .work__right-process-wrapper {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  .service {
+    padding-block: 5rem;
+  }
+
+  .service__card-wrapper {
+    flex-wrap: wrap;
+  }
+  .awards {
+    margin-block: 5rem;
+    flex-direction: column;
+    gap: 3rem;
+  }
 }
 
 /* 768px */
@@ -187,6 +209,10 @@
   .qualification {
     padding-top: 3rem;
   }
+
+  .work__right-process-wrapper {
+    grid-template-columns: repeat(2, auto);
+  }
 }
 
 /* 380px */
@@ -211,7 +237,7 @@
 
   .header__title,
   .company__title {
-    font-size: var(--fs-5rem);
+    font-size: 2.4rem;
     line-height: 3rem;
   }
 
@@ -280,5 +306,65 @@
 
   .about__btn-wrapper {
     width: 100%;
+  }
+
+  .work {
+    gap: 3rem;
+  }
+
+  .work__left-email {
+    font-size: 1.8rem;
+  }
+
+  .qualification {
+    padding-bottom: 5rem;
+  }
+
+  .work__left-divider {
+    margin-block: 2rem;
+  }
+
+  .work__right-description {
+    margin-block: 1rem 2rem;
+  }
+  .work__right-title,
+  .service__title,
+  .awards__right-title {
+    font-size: 2.5rem;
+  }
+
+  .work__right-process-wrapper {
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+  }
+
+  .service {
+    padding-top: 0;
+  }
+  .service__content {
+    gap: 3rem;
+  }
+
+  .service__card-wrapper {
+    justify-content: center;
+  }
+
+  .awards {
+    margin-block: 4rem;
+  }
+
+  .awards__card {
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 0 10px #0000001a;
+  }
+
+  .awards__right-language-wrapper strong {
+    flex: 1 0 45%;
+  }
+
+  .awards__right-language-wrapper {
+    flex-wrap: wrap;
+    gap: 1rem;
   }
 }

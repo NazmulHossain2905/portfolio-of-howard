@@ -479,6 +479,7 @@ body {
   font-size: 2.5rem;
   font-weight: 600;
   position: relative;
+  width: fit-content;
 }
 
 .work__left-email::after {
@@ -486,14 +487,13 @@ body {
   position: absolute;
   left: -3px;
   bottom: 0;
-  width: 28.9375rem;
+  width: 103%;
   height: 1rem;
   z-index: -1;
   background: var(--primary-shade, #e8f1fc);
 }
 
 .work__left-divider {
-  width: 33.5rem;
   height: 0.0625rem;
   background: #dfe3e5;
   margin-block: 3rem;
@@ -640,4 +640,100 @@ body {
   line-height: 1.375rem;
   margin-top: 0.75rem;
 }
+
+.service__btn i {
+  font-size: 1.5rem;
+}
 /* SERVICES ME STYLES ENDS */
+
+/* AWARDS ME STYLES STARTS */
+.awards {
+  margin-block: 10.25rem;
+}
+
+.awards__left-content {
+  max-width: 34.8rem;
+}
+
+.awards__card {
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background: var(--white-color, #fff);
+  box-shadow: 0px 24px 88px -16px rgba(18, 19, 20, 0.06);
+}
+
+.awards__card-icon {
+  padding: 1.44rem;
+  background: var(--gray-50, #f5f6f7);
+}
+
+.awards__card-icon-text {
+  width: 4rem;
+  height: 4rem;
+  color: var(--gray-900, #121314);
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+.awards__card-title {
+  color: var(--gray-900, #121314);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.awards__card-desc {
+  color: var(--gray-500, #5e6971);
+  line-height: 1.5rem;
+  margin-top: 0.38rem;
+}
+
+.awards__right-content {
+  max-width: 40.5rem;
+}
+
+.awards__right-title {
+  color: var(--gray-900, #121314);
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.awards__right-description {
+  color: var(--gray-500, #5e6971);
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  margin-block: 1.5rem 2.5rem;
+}
+
+.awards__right-language-card {
+  padding: 2rem;
+  border-radius: 0.1875rem;
+  background: var(--gray-50, #f5f6f7);
+}
+
+.awards__right-language {
+  color: var(--gray-900, #121314);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.awards__right-language-wrapper {
+  margin-top: 1rem;
+}
+
+.awards__right-language-wrapper strong {
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  font-weight: 600;
+  flex: 1;
+}
+.awards__right-language-wrapper strong:nth-child(2) {
+  color: #9249f2;
+}
+.awards__right-language-wrapper strong:nth-child(3) {
+  color: var(--success-color);
+}
+.awards__right-language-wrapper strong:nth-child(4) {
+  color: var(--danger-color);
+}
+
+/* AWARDS ME STYLES ENDS */
