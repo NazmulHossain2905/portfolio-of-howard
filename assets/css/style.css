@@ -90,9 +90,6 @@ body {
   border-radius: 0.3rem;
 }
 
-.menu-bar-wrapper {
-}
-
 /* NAVBAR STYLES ENDS */
 
 /* HEADER STYLES STARTS */
@@ -917,7 +914,7 @@ body {
   background-color: var(--white-color);
 }
 
-.footer_bottom-text {
+.footer__bottom-text {
   color: var(--gray-500, #5e6971);
   text-align: center;
   font-size: 1.125rem;
