@@ -106,6 +106,10 @@
     flex-direction: column;
     gap: 3rem;
   }
+
+  .projects__project-wrapper {
+    flex-direction: column;
+  }
 }
 
 /* 768px */
@@ -366,5 +370,63 @@
   .awards__right-language-wrapper {
     flex-wrap: wrap;
     gap: 1rem;
+  }
+
+  .projects__project-card {
+    min-width: 100%;
+    min-height: auto;
+  }
+
+  .projects__arrow {
+    display: none;
+  }
+
+  .projects__heading {
+    font-size: 2rem;
+  }
+
+  .projects {
+    margin-block: 4rem;
+    gap: 2rem;
+  }
+
+  .project__card-title {
+    font-size: 1rem;
+  }
+
+  .project__card-desc {
+    display: none;
+  }
+
+  .footer__contact-wrapper {
+    flex-direction: column;
+  }
+
+  .footer__contact-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.4rem;
+  }
+
+  .footer__contact-wrapper:no-button {
+    background-color: #f00;
+  }
+
+  .footer__title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .footer__content {
+    padding-block: 5rem;
+    gap: 2.5rem;
+  }
+
+  .footer__bottom {
+    padding-block: 1rem;
+  }
+
+  .footer__bottom-text {
+    text-align: center;
   }
 }

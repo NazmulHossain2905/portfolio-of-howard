@@ -737,3 +737,190 @@ body {
 }
 
 /* AWARDS ME STYLES ENDS */
+
+/* PROJECTS ME STYLES STARTS */
+
+.projects {
+  margin-block: 10.25rem;
+  gap: 4.5rem;
+}
+
+.projects__heading {
+  color: var(--gray-900, #121314);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.projects__project-container {
+  position: relative;
+}
+
+.projects__arrow {
+  width: 4.5rem;
+  aspect-ratio: 1;
+  border-radius: 8.125rem;
+  background: var(--white-color, #fff);
+  box-shadow: 0px 0px 24px 0px rgba(18, 19, 20, 0.08);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.projects__arrow i {
+  font-size: 1.5rem;
+}
+.projects__arrow--left {
+  left: 10rem;
+}
+.projects__arrow--right {
+  right: 10rem;
+}
+
+.projects__project-wrapper {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+}
+.projects__project-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.projects__project-card {
+  min-width: 54.5rem;
+  min-height: 30.5rem;
+  scroll-snap-align: center;
+  position: relative;
+}
+
+.projects__project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project__card-content {
+  background-color: rgba(0, 0, 0, 0.733);
+  position: absolute;
+  inset: 0;
+  padding: 6.19rem 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--white-color);
+}
+
+.project__card-tag {
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.25rem;
+  background: rgba(255, 255, 255, 0.1);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.project__card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.project__card-desc {
+  max-width: 31.4375rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  margin-block: 1.5rem 2rem;
+  opacity: 0.7;
+}
+
+.project__card-content button {
+  background-color: transparent;
+  border: 2px solid var(--white-color);
+  color: var(--white-color);
+}
+
+.projects__btn {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: transparent;
+  margin-inline: auto;
+}
+
+/* PROJECTS ME STYLES ENDS */
+
+/* FOOTER ME STYLES STARTS */
+.footer {
+  background-image: url("../images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__content {
+  padding-block: 10.25rem;
+}
+
+.footer__title {
+  color: var(--gray-900, #121314);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 3.5rem;
+}
+
+.footer__contact-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer__contact-card {
+  text-align: center;
+  width: 20rem;
+}
+
+.footer__contact-card i,
+.footer__contact-card h3 {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+}
+
+.footer__contact-card i {
+  margin-bottom: 1.5rem;
+}
+
+.footer__contact-card h3 {
+  font-size: 3rem;
+}
+
+.footer__contact-card-title {
+  color: var(--gray-500, #5e6971);
+  margin-bottom: 0.5rem;
+}
+
+.footer__contact-way {
+  color: var(--gray-900, #121314);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer__bottom {
+  padding-block: 2rem;
+  background-color: var(--white-color);
+}
+
+.footer_bottom-text {
+  color: var(--gray-500, #5e6971);
+  text-align: center;
+  font-size: 1.125rem;
+}
+
+/* FOOTER ME STYLES ENDS */
