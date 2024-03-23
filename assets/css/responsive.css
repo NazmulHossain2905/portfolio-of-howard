@@ -219,8 +219,8 @@
   }
 }
 
-/* 380px */
-@media screen and (max-width: 380px) {
+/* 415px */
+@media screen and (max-width: 415px) {
   .primary-navbar {
     padding-block: 0.5rem;
   }
